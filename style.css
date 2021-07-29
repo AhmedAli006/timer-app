@@ -1,0 +1,35 @@
+ #stopWatch 
+ { width: 280px; 
+ height: auto; 
+ text-align: center; 
+ display: block; 
+ padding: 5px; 
+ margin: 0 auto; } 
+ 
+ #timer,
+  #fulltime 
+  { width: auto; 
+  height: auto; 
+  padding: 10px;
+ font-weight: bold;
+  
+  display: block;
+border: 1px solid rgb(95, 18, 18); 
+text-align: center;
+ background: #fbfbf0; color: darkblue;
+ } 
+        
+button
+  { 
+  font-weight: 700; 
+  }
+   #fulltime 
+   { display:none; 
+   font-size:16px; 
+   font-weight:bold; } 
+
+.num{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
